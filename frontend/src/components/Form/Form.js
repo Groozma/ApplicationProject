@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 
 function Form() {
@@ -7,22 +7,25 @@ function Form() {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [isInvalid, setIsInvalid] = useState(false);
+    const [emailSent, setEmailSent] = useState(false);
+
+    const form = useRef();
 
     const handleNameChange = (e) => {
-        setName(e.target.value)
+        setName(e.target.value);
     }
     const handleEmailChange = (e) => {
-        setEmail(e.target.value)
+        setEmail(e.target.value);
     }
     const handleSubjectChange = (e) => {
-        setSubject(e.target.value)
+        setSubject(e.target.value);
     }
     const handleMessageChange = (e) => {
-        setMessage(e.target.value)
+        setMessage(e.target.value);
     }
 
     const sendEmail = (e) => {
-        e.preventDefault;
+        e.preventDefault();
 
         if (name === '' || email === '' || subject === '' || message === '') {
             setIsInvalid(true);
@@ -36,6 +39,11 @@ function Form() {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    setName('');
+                    setEmail('');
+                    setSubject('');
+                    setMessage('');
+                    setEmailSent(true);
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -45,16 +53,20 @@ function Form() {
     };
     return (
         <>
-            <form onSubmit={sendEmail}>\
+            <form ref={form} onSubmit={sendEmail}>
+                <div>
                 <label>
                     Name:
                     <input
-                        type="email"
+                        type="text"
                         maxLength={50}
                         value={name}
                         onChange={handleNameChange}
+                        name="name"
                         />
                 </label>
+                </div>
+                <div>
                 <label>
                     Email:
                     <input
@@ -62,8 +74,11 @@ function Form() {
                         maxLength={75}
                         value={email}
                         onChange={handleEmailChange}
+                        name="email"
                         />
-                </label>            
+                </label>   
+                </div>
+                <div>         
                 <label>
                     Subject:
                     <input
@@ -71,8 +86,11 @@ function Form() {
                         maxLength={100}
                         value={subject}
                         onChange={handleSubjectChange}
+                        name="title"
                         />
                 </label>
+                </div>
+                <div>
                 <label>
                     Message:
                     <textarea
@@ -80,12 +98,17 @@ function Form() {
                         maxLength={1000}
                         value={message}
                         onChange={handleMessageChange}
+                        name="message"
                         />
                 </label>
+                </div>
                 {isInvalid && (
                     <div>Please fill in all boxes</div>
                 )}
                 <button>Submit</button>
+                {emailSent && (
+                    <div>Email Sent!</div>
+                )}
             </form>
         </>
     )
