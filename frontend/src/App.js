@@ -1,16 +1,14 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Home from './Pages/Home/Home';
+import Contact from './Pages/Contact/Contact';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Header />
-      <hr />
-      <p>
-        <div>Welcome to Onward Sun</div>
-      </p>
-      <hr />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/Contact' element={<Contact />}/>
+      </Routes>
     </>
   );
 }
