@@ -6,6 +6,7 @@ import Home from "./Pages/Home/Home";
 import Contact from "./Pages/Contact/Contact";
 import Programs from "./Pages/Programs/Programs";
 import Nav from "./components/Nav/Nav";
+import Gallery from "./Pages/Gallery/Gallery"
 
 import { Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Programs" element={<Programs />} />
+        <Route path="/Gallery" element={<Gallery />} />
       </Routes>
 
       <hr />
