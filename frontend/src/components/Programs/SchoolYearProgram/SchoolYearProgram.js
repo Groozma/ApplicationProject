@@ -1,3 +1,5 @@
+import Cost from "./Cost/Cost";
+
 function SchoolYearProgram() {
   return (
     <>
@@ -76,6 +78,7 @@ function SchoolYearProgram() {
         </li>
       </ul>
 
+      <Cost />
       <a href="/school-year-program.pdf" download>
         Click here to download our School Year Brochure
       </a>
