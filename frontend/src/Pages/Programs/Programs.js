@@ -1,17 +1,12 @@
-import Header from "../../components/Header";
-import SchoolYearProgram from "../../components/Programs/SchoolYearProgram";
-import SummerCamps from "../../components/Programs/SummerCamps";
-import Footer from "../../components/Footer";
+import SchoolYearProgram from "../../components/Programs/SchoolYearProgram/SchoolYearProgram";
+import SummerCamps from "../../components/Programs/SummerCamps/SummerCamps";
 
 function Programs() {
   return (
     <>
-      <Header />
-      <hr />
       <SchoolYearProgram />
-      <SummerCamps />
       <hr />
-      <Footer />
+      <SummerCamps />
     </>
   );
 }
