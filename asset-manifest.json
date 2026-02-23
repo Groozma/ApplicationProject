@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ApplicationProject/static/css/main.e6c13ad2.css",
+    "main.js": "/ApplicationProject/static/js/main.58aaa587.js",
+    "static/js/453.e4ff0d69.chunk.js": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js",
+    "static/media/gallery3.jpg": "/ApplicationProject/static/media/gallery3.e9e2b5272d8995df849c.jpg",
+    "static/media/gallery2.jpg": "/ApplicationProject/static/media/gallery2.a07373d2c38acb7e1af2.jpg",
+    "static/media/gallery4.jpg": "/ApplicationProject/static/media/gallery4.2914b81cf08d91076510.jpg",
+    "static/media/gallery1.jpg": "/ApplicationProject/static/media/gallery1.084832afdf1bafe66c58.jpg",
+    "static/media/gallery9.jpg": "/ApplicationProject/static/media/gallery9.881a8d31e7db25b66c44.jpg",
+    "static/media/gallery7.jpg": "/ApplicationProject/static/media/gallery7.e0124656e7eb1dc50f06.jpg",
+    "static/media/gallery14.jpg": "/ApplicationProject/static/media/gallery14.26186f087b3f06627bb6.jpg",
+    "static/media/gallery5.jpg": "/ApplicationProject/static/media/gallery5.177c109e9c9ba985b040.jpg",
+    "static/media/gallery6.jpg": "/ApplicationProject/static/media/gallery6.c3525a1d1aff808009c4.jpg",
+    "static/media/gallery8.jpg": "/ApplicationProject/static/media/gallery8.95e5ba0bdd58f51b30b7.jpg",
+    "static/media/gallery13.jpg": "/ApplicationProject/static/media/gallery13.3382636fc5a48dcee552.jpg",
+    "static/media/gallery11.jpg": "/ApplicationProject/static/media/gallery11.e855e665ac5815a1945e.jpg",
+    "static/media/gallery12.jpg": "/ApplicationProject/static/media/gallery12.35c4eabe7e6c2995346b.jpg",
+    "static/media/gallery10.jpg": "/ApplicationProject/static/media/gallery10.7e2aefd7a3ca5d633cad.jpg",
+    "static/media/Facebook_Logo_Primary.png": "/ApplicationProject/static/media/Facebook_Logo_Primary.790642551cd99bb66a7e.png",
+    "index.html": "/ApplicationProject/index.html",
+    "main.e6c13ad2.css.map": "/ApplicationProject/static/css/main.e6c13ad2.css.map",
+    "main.58aaa587.js.map": "/ApplicationProject/static/js/main.58aaa587.js.map",
+    "453.e4ff0d69.chunk.js.map": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.58aaa587.js"
+  ]
+}
