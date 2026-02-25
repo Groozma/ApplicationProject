@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ApplicationProject/static/css/main.e6c13ad2.css",
-    "main.js": "/ApplicationProject/static/js/main.58aaa587.js",
+    "main.js": "/ApplicationProject/static/js/main.e0be31d9.js",
     "static/js/453.e4ff0d69.chunk.js": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js",
     "static/media/gallery3.jpg": "/ApplicationProject/static/media/gallery3.e9e2b5272d8995df849c.jpg",
     "static/media/gallery2.jpg": "/ApplicationProject/static/media/gallery2.a07373d2c38acb7e1af2.jpg",
@@ -20,11 +20,11 @@
     "static/media/Facebook_Logo_Primary.png": "/ApplicationProject/static/media/Facebook_Logo_Primary.790642551cd99bb66a7e.png",
     "index.html": "/ApplicationProject/index.html",
     "main.e6c13ad2.css.map": "/ApplicationProject/static/css/main.e6c13ad2.css.map",
-    "main.58aaa587.js.map": "/ApplicationProject/static/js/main.58aaa587.js.map",
+    "main.e0be31d9.js.map": "/ApplicationProject/static/js/main.e0be31d9.js.map",
     "453.e4ff0d69.chunk.js.map": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.58aaa587.js"
+    "static/js/main.e0be31d9.js"
   ]
 }
