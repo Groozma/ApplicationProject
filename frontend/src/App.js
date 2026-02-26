@@ -19,10 +19,10 @@ function App() {
       <hr />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Programs" element={<Programs />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/ApplicationProject" element={<Home />} />
+        <Route path="/ApplicationProject/Contact" element={<Contact />} />
+        <Route path="/ApplicationProject/Programs" element={<Programs />} />
+        <Route path="/ApplicationProject/Gallery" element={<Gallery />} />
       </Routes>
 
       <hr />
