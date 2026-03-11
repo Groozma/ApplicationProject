@@ -1,6 +1,8 @@
+import './Address.scss'
+
 function Address() {
   return (
-    <>
+    <div className="address">
       <h2>Onward Office</h2>
       <p>
         Onward Social Skills
@@ -22,7 +24,7 @@ function Address() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
-    </>
+    </div>
   );
 }
 

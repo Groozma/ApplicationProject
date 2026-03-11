@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    .photo {
+        margin: 1rem;
+        width: auto;
+        height: auto;
+        border: 2px $secondary-color solid;
+        border-radius: 5%;
+        box-shadow: 10px 10px 5px 0px $primary-color;
+        -webkit-box-shadow: 10px 10px 5px 0px $primary-color;
+        -moz-box-shadow: 10px 10px 5px 0px $primary-color;
+    }
+}
