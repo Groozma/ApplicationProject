@@ -11,7 +11,9 @@ function Contact() {
         <Form />
         <Address />
       </div>
-      <Certification />
+      <div>
+        <Certification />
+      </div>
     </>
   );
 }

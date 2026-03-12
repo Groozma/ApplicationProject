@@ -4,7 +4,7 @@ import "./SchoolYearProgram.scss";
 function SchoolYearProgram() {
   // Displays detailed program information with semantic headings and lists for SEO clarity
   return (
-    <>
+    <div className="syprogram">
       <h2>School Year Program</h2>
 
       <h3>Social Skills Enrichment for Children</h3>
@@ -80,12 +80,11 @@ function SchoolYearProgram() {
         </li>
       </ul>
 
+      <Cost />
       <a href="/school-year-program.pdf" download>
         Click here to download our School Year Brochure
       </a>
-
-      <Cost />
-    </>
+    </div>
   );
 }
 
