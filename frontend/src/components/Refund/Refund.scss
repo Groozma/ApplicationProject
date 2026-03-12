@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.refund {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3.9rem;
+  color: $black-font;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $primary-color;
+  }
+}

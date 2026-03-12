@@ -1,0 +1,8 @@
+@import "./styles/variables.scss";
+
+.app {
+  .line {
+    background-color: $secondary-color;
+    padding: 0.2rem;
+  }
+}
