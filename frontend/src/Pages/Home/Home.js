@@ -1,6 +1,8 @@
 import Facebook from "../../components/Facebook/Facebook";
+import "./Home.scss";
 
 function Home() {
+  // Home page displaying welcome message and Facebook feed
   return (
     <>
       <p>

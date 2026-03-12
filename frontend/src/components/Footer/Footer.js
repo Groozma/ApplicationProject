@@ -1,4 +1,7 @@
+import "./Footer.scss";
+
 function Footer() {
+  // Displays developer credits and site footer information
   return (
     <>
       App Developed by

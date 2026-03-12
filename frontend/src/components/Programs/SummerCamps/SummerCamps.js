@@ -1,4 +1,7 @@
+import "./SummerCamps.scss";
+
 function SummerCamps() {
+  // Displays summer camp section with placeholder information
   return (
     <>
       <h2>Summer Camps</h2>
