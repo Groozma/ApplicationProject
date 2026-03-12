@@ -1,8 +1,9 @@
 import Cost from "./Cost/Cost";
+import './SchoolYearProgram.scss'
 
 function SchoolYearProgram() {
   return (
-    <>
+    <div className="syprogram">
       <h2>School Year Program</h2>
 
       <h3>Social Skills Enrichment for Children</h3>
@@ -82,7 +83,7 @@ function SchoolYearProgram() {
       <a href="/school-year-program.pdf" download>
         Click here to download our School Year Brochure
       </a>
-    </>
+    </div>
   );
 }
 

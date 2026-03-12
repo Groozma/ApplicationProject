@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.programs {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: $black-font;
+}

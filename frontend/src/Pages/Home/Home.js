@@ -1,13 +1,12 @@
 import Facebook from "../../components/Facebook/Facebook";
+import './Home.scss';
 
 function Home() {
   return (
-    <>
-      <p>
-        <div>Welcome to Onward Sun</div>
-      </p>
+    <div className="home">
+      Welcome to Onward Sun
       <Facebook />
-    </>
+    </div>
   );
 }
 

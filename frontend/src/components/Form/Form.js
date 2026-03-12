@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
+import './Form.scss';
 
 function Form() {
     const [name, setName] = useState('');
@@ -52,7 +53,8 @@ function Form() {
         }
     };
     return (
-        <>
+        <div className="form">
+            <div className="title">E-mail Us:</div>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                 <label>
@@ -110,7 +112,7 @@ function Form() {
                     <div>Email Sent!</div>
                 )}
             </form>
-        </>
+        </div>
     )
 }
 
