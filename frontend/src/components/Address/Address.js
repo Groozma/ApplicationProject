@@ -1,6 +1,12 @@
-import './Address.scss'
+import { useEffect } from "react";
+import "./Address.scss";
 
 function Address() {
+  // Set the page title for SEO
+  useEffect(() => {
+    document.title = "Contact | Onward Social Skills";
+  }, []);
+
   return (
     <div className="address">
       <h2>Onward Office</h2>

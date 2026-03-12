@@ -1,11 +1,12 @@
-import Photos from "../../components/Photos/Photos"
+import Photos from "../../components/Photos/Photos";
 
 function Gallery() {
-    return(        
-        <>
-            <Photos />
-        </>
-    )
+  // Gallery page displaying all program photos
+  return (
+    <>
+      <Photos />
+    </>
+  );
 }
 
 export default Gallery;

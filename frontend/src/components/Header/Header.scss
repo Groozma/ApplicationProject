@@ -1,16 +1,16 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .header {
-    background-color: $primary-color;
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem;
-    color: $white-font;
-    font-size: 1.2rem;
-    align-items: center;
-    
-    .logo {
-        width: 75px;
-        height: 75px;
-    }
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: $white-font;
+  font-size: 1.2rem;
+  align-items: center;
+
+  .logo {
+    width: 75px;
+    height: 75px;
+  }
 }
