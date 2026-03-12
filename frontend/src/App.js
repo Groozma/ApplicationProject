@@ -5,11 +5,13 @@ import Home from "./Pages/Home/Home";
 import Contact from "./Pages/Contact/Contact";
 import Programs from "./Pages/Programs/Programs";
 import Nav from "./components/Nav/Nav";
-import Gallery from "./Pages/Gallery/Gallery"
+
+import Gallery from "./Pages/Gallery/Gallery";
+
 
 import { Routes, Route } from "react-router-dom";
 
-import './App.scss'
+import "./App.scss";
 
 function App() {
   return (

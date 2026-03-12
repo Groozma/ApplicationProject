@@ -1,6 +1,7 @@
-import './SummerCamps.scss'
+import "./SummerCamps.scss";
 
 function SummerCamps() {
+  // Displays summer camp section with placeholder information
   return (
     <div className="summer">
       <h2>Summer Camps</h2>
