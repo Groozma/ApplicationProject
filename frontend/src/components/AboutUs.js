@@ -1,3 +1,4 @@
+import "./AboutUs.scss";
 function AboutUs() {
   return (
     <div>
@@ -11,15 +12,17 @@ function AboutUs() {
         </li>
       </ul>
 
-      <h3>Is your child having difficulty with…</h3>
-      <ul>
-        <li>Self esteem</li>
-        <li>Anger</li>
-        <li>Friendship</li>
-        <li>Problem Solving</li>
-        <li>Feeling Identification</li>
-        <li>Co operation</li>
-      </ul>
+      <div className="difficulty-box">
+        <h3>Is your child having difficulty with…</h3>
+        <ul>
+          <li>Self esteem</li>
+          <li>Anger</li>
+          <li>Friendship</li>
+          <li>Problem Solving</li>
+          <li>Feeling Identification</li>
+          <li>Co operation</li>
+        </ul>
+      </div>
     </div>
   );
 }
