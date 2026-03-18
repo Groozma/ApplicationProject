@@ -7,6 +7,12 @@ function Contact() {
   // Contact page layout combining form, address, and certification components
   return (
     <>
+    <h2>Contact Us</h2>
+
+<p>
+Parents and guardians can contact us via email:
+<a href="mailto:onward@live.ca"> onward@live.ca</a>
+</p>
       <div className="contact">
         <Form />
         <Address />

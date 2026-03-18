@@ -28,6 +28,7 @@ function ParentInfo() {
 
       <h3>Program Times</h3>
       <p>Evening groups, one hour in length, offered through the week.</p>
+      
     </div>
   );
 }
