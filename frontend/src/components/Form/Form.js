@@ -52,7 +52,13 @@ function Form() {
         }
     };
     return (
-        <>
+        <> 
+        <div>
+             <h2>Contact Us</h2>
+             <p>Parents and guardians can contact us via email:
+            <a href="mailto:info@onwardsun.com"> info@onwardsun.com</a>
+             </p>
+        </div>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                 <label>
