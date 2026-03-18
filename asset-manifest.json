@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/ApplicationProject/static/css/main.60c2df24.css",
-    "main.js": "/ApplicationProject/static/js/main.5aa84e9f.js",
+    "main.css": "/ApplicationProject/static/css/main.a059d487.css",
+    "main.js": "/ApplicationProject/static/js/main.c4875c43.js",
     "static/js/453.e4ff0d69.chunk.js": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js",
+    "static/media/summer.png": "/ApplicationProject/static/media/summer.ecc272649c532c0d92a7.png",
     "static/media/logo.png": "/ApplicationProject/static/media/logo.1de852c5f69c38e0458a.png",
+    "static/media/school.jpg": "/ApplicationProject/static/media/school.6bb2e5a50961589f2a3c.jpg",
+    "static/media/testimonial.png": "/ApplicationProject/static/media/testimonial.921d4d18c137cc4282fa.png",
     "static/media/gallery3.jpg": "/ApplicationProject/static/media/gallery3.e9e2b5272d8995df849c.jpg",
     "static/media/gallery2.jpg": "/ApplicationProject/static/media/gallery2.a07373d2c38acb7e1af2.jpg",
     "static/media/gallery4.jpg": "/ApplicationProject/static/media/gallery4.2914b81cf08d91076510.jpg",
@@ -19,13 +22,14 @@
     "static/media/gallery12.jpg": "/ApplicationProject/static/media/gallery12.35c4eabe7e6c2995346b.jpg",
     "static/media/gallery10.jpg": "/ApplicationProject/static/media/gallery10.7e2aefd7a3ca5d633cad.jpg",
     "static/media/Facebook_Logo_Primary.png": "/ApplicationProject/static/media/Facebook_Logo_Primary.790642551cd99bb66a7e.png",
+    "static/media/neat.png": "/ApplicationProject/static/media/neat.216a33cc1101a8f72f81.png",
     "index.html": "/ApplicationProject/index.html",
-    "main.60c2df24.css.map": "/ApplicationProject/static/css/main.60c2df24.css.map",
-    "main.5aa84e9f.js.map": "/ApplicationProject/static/js/main.5aa84e9f.js.map",
+    "main.a059d487.css.map": "/ApplicationProject/static/css/main.a059d487.css.map",
+    "main.c4875c43.js.map": "/ApplicationProject/static/js/main.c4875c43.js.map",
     "453.e4ff0d69.chunk.js.map": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c2df24.css",
-    "static/js/main.5aa84e9f.js"
+    "static/css/main.a059d487.css",
+    "static/js/main.c4875c43.js"
   ]
 }
