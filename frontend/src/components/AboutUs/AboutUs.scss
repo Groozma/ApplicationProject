@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .difficulty-box {
-  background-color: #2f5d63; // dark teal
+  background-color: $primary-color-light; // dark teal
   color: white;
   padding: 20px;
   margin-top: 20px;
