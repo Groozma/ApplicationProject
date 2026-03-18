@@ -7,9 +7,12 @@ function Nav() {
     <>
       <nav>
         <Link to="/ApplicationProject">Home</Link>
-        <Link to="/ApplicationProject/Contact">Contact</Link>
         <Link to="/ApplicationProject/Programs">Programs</Link>
+        <Link to="/ApplicationProject/Testimonials">Testimonials</Link>
+        <Link to="/ApplicationProject/Contact">Contact</Link>
         <Link to={"/ApplicationProject/Gallery"}>Gallery</Link>
+        <Link to={"/ApplicationProject/NeatStuff"}>Neat Stuff</Link>
+
       </nav>
     </>
   );

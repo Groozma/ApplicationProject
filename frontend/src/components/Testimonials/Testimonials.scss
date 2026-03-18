@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.testimonials {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    .data {
+        border: 1px $border-color solid;
+        margin: 1rem;
+        padding: .5rem;
+        width: 40%;
+        box-shadow: 5px 5px 10px 0px $primary-color;
+        .client {
+            text-align: right;
+            font-weight: 500;
+            font-style: italic;
+        }
+    }
+}
