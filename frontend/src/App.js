@@ -1,35 +1,36 @@
 import Header from "./components/Header/Header";
-import Address from "./components/Address/Address";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./Pages/Home/Home";
 import Contact from "./Pages/Contact/Contact";
 import Programs from "./Pages/Programs/Programs";
 import Nav from "./components/Nav/Nav";
-import Gallery from "./Pages/Gallery/Gallery"
+
+import Gallery from "./Pages/Gallery/Gallery";
+
 
 import { Routes, Route } from "react-router-dom";
 
+import "./App.scss";
+
 function App() {
   return (
-    <>
+    <div className="app">
       <Header />
-      <hr />
+      <div className="line"></div>
       <Nav />
-      <hr />
+      <div className="line"></div>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Programs" element={<Programs />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/ApplicationProject" element={<Home />} />
+        <Route path="/ApplicationProject/Contact" element={<Contact />} />
+        <Route path="/ApplicationProject/Programs" element={<Programs />} />
+        <Route path="/ApplicationProject/Gallery" element={<Gallery />} />
       </Routes>
 
-      <hr />
-      <Address />
-      <hr />
+      <div className="line"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
