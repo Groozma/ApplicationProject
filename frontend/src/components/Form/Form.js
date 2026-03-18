@@ -56,14 +56,6 @@ function Form() {
 
   return (
     <>
-      <div>
-        <h2>Contact Us</h2>
-        <p>
-          Parents and guardians can contact us via email:
-          <a href="mailto:onward@live.ca"> onward@live.ca</a>
-        </p>
-      </div>
-
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>
