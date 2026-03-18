@@ -19,19 +19,7 @@ function ParentInfo() {
 
       <h3>Program Times</h3>
       <p>Evening groups, one hour in length, offered through the week.</p>
-      <h3>About Our Program</h3>
-<p>
-Onward Sun offers engaging programs designed to help children learn,
-grow, and develop new skills through fun and educational activities.
-</p>
-
-<h3>Program Age Ranges</h3>
-<ul>
-<li>Ages 4 - 6</li>
-<li>Ages 7 - 9</li>
-<li>Ages 10 - 12</li>
-<li>Ages 13 - 16</li>
-</ul>
+      
     </div>
   );
 }

@@ -56,7 +56,7 @@ function Form() {
         <div>
              <h2>Contact Us</h2>
              <p>Parents and guardians can contact us via email:
-            <a href="mailto:info@onwardsun.com"> info@onwardsun.com</a>
+            <a href="mailto:onward@live.ca"> onward@live.ca</a>
              </p>
         </div>
             <form ref={form} onSubmit={sendEmail}>

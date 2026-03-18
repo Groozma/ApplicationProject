@@ -1,3 +1,5 @@
+
+import AboutUs from "../../components/AboutUs";
 import Facebook from "../../components/Facebook/Facebook";
 
 function Home() {
@@ -7,6 +9,7 @@ function Home() {
         <div>Welcome to Onward Sun</div>
       </p>
       <Facebook />
+      <AboutUs />
     </>
   );
 }
