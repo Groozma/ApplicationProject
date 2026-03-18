@@ -2,8 +2,11 @@
 
 .neatStuff{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    margin-left: 100px;
     ul{
         li {
             padding: 1rem;
@@ -11,6 +14,7 @@
             a {
                 color: $primary-color;
                 font-weight: 600;
+                font-size: 1.2rem;
             }
         }
     }

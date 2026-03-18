@@ -4,7 +4,7 @@ import neatImg from "../../images/neat.png";
 import testimonialImg from "../../images/testimonial.png";
 import "./Home.scss";
 
-import AboutUs from "../../components/AboutUs";
+import AboutUs from "../../components/AboutUs/AboutUs";
 import Facebook from "../../components/Facebook/Facebook";
 
 function Home() {
@@ -12,8 +12,8 @@ function Home() {
     <div className="home">
       <div>Welcome to Onward Sun</div>
 
-      <Facebook />
       <AboutUs />
+      <Facebook />
 
       <div>
         <h2>Onward Makes A Difference...</h2>

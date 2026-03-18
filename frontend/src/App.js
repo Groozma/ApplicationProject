@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <div className="line"></div>
+      {/* <div className="line"></div> */}
       <Nav />
       <div className="line"></div>
 
