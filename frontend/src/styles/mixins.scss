@@ -1,6 +1,6 @@
 @mixin button-style($bg-color) {
   background-color: $bg-color;
   border: 1px solid black;
-  border-radius: 20%;
+  border-radius: 1rem;
   padding: 0.5rem;
 }

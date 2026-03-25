@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Programs from "./Pages/Programs/Programs";
 import Nav from "./components/Nav/Nav";
@@ -24,6 +25,7 @@ function App() {
 
       <Routes>
         <Route path="/ApplicationProject" element={<Home />} />
+        <Route path="/ApplicationProject/About" element={<About />} />
         <Route path="/ApplicationProject/Contact" element={<Contact />} />
         <Route path="/ApplicationProject/Programs" element={<Programs />} />
         <Route path="/ApplicationProject/Testimonials" element={<TestimonialsPage />} />
