@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+
+.different {
+    width: 100%;
+    margin: 1rem;
+    h3 {
+        text-decoration: underline;
+        font-size: 1.5rem;
+    }
+    .poem {
+        flex-direction: column;
+        background-color: $secondary-color-light;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
