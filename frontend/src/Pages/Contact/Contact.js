@@ -4,30 +4,40 @@ import "./Contact.scss";
 import Certification from "../../components/Certification/Certification";
 import AppointmentBooking from "../../components/AppointmentBooking";
 import Feedback from "../../components/Feedback";
+import SignUp from "../../components/SignUp/SignUp";
 
 function Contact() {
   return (
-    <>
-      <h2>Contact Us</h2>
+    <div className="contact">
+      <div className="card">
+        <h2>Contact Us</h2>
+        <p>
+          Parents and guardians can contact us via email:
+          <a href="mailto:onward@live.ca"> onward@live.ca</a>
+        </p>
+      </div>
 
-      <p>
-        Parents and guardians can contact us via email:
-        <a href="mailto:onward@live.ca"> onward@live.ca</a>
-      </p>
-
-      <AppointmentBooking />
-
-      <div className="contact">
+      <div className="card">
+        <AppointmentBooking />
         <Form />
+      </div>
+
+      <div className="map">
         <Address />
       </div>
 
-      <Feedback />
+      <div className="card">
+        <Feedback />
+      </div>
 
-      <div>
+      <div className="card signup">
+        <SignUp />
+      </div>
+
+      <div className="card">
         <Certification />
       </div>
-    </>
+    </div>
   );
 }
 
