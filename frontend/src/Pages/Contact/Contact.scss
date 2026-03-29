@@ -2,6 +2,31 @@
 
 .contact {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
   color: $black-font;
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    border: 2px $secondary-color solid;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px 0px $primary-color;
+    -webkit-box-shadow: 10px 10px 5px 0px $primary-color;
+    -moz-box-shadow: 10px 10px 5px 0px $primary-color;
+  }
+  .map {
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    border: 2px $secondary-color solid;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px 0px $primary-color;
+    -webkit-box-shadow: 10px 10px 5px 0px $primary-color;
+    -moz-box-shadow: 10px 10px 5px 0px $primary-color;
+  }
 }
