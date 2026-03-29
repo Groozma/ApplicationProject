@@ -3,14 +3,14 @@
 .header {
   background-color: $primary-color;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: space-around;
   padding: 0.5rem;
   color: $white-font;
   font-size: 2rem;
-  align-items: center;
+  // align-items: center;
 
-  .logo {
-    width: 200px;
-    height: 200px;
+  .header-image {
+    width: 90%;
   }
 }

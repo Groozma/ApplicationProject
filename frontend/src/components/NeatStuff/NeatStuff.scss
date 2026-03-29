@@ -2,11 +2,15 @@
 
 .neatStuff{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 125px;
-    margin-left: 100px;
+    margin-left: 50px;
+    .image-card {
+        width: 300px;
+    }
     ul{
         li {
             padding: 1rem;
@@ -16,6 +20,17 @@
                 font-weight: 600;
                 font-size: 1.2rem;
             }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .neatStuff {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 100px;
+        .image-card {
+            width: auto;
         }
     }
 }

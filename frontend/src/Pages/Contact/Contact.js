@@ -2,8 +2,8 @@ import Form from "../../components/Form/Form";
 import Address from "../../components/Address/Address";
 import "./Contact.scss";
 import Certification from "../../components/Certification/Certification";
-import AppointmentBooking from "../../components/AppointmentBooking";
-import Feedback from "../../components/Feedback";
+import AppointmentBooking from "../../components/AppointmentBooking/AppointmentBooking";
+import Feedback from "../../components/Feedback/Feedback";
 import SignUp from "../../components/SignUp/SignUp";
 
 function Contact() {

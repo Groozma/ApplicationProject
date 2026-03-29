@@ -10,7 +10,7 @@ function About()  {
         <div className="about">
             <div>
                 <AboutOnward />
-                <div>
+                <div className="service-news">
                     <Service />
                     <News />
                 </div>

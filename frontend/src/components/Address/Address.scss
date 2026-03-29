@@ -1,6 +1,12 @@
 .address {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  justify-self: right;
+  width: 250px;
+  justify-self: left;
+}
+
+@media (min-width: 1200px) {
+    .address {
+      width: 400px;
+    }
 }

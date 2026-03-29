@@ -1,7 +1,7 @@
 @import "../../styles/variables.scss";
 
 .different {
-    width: 100%;
+    width: 300px;
     margin: 1rem;
     h3 {
         text-decoration: underline;
@@ -13,4 +13,10 @@
         padding: 1rem;
         border-radius: 1rem;
     }
+}
+
+@media (min-width: 768px) {
+  .different {
+    width: 100%;
+}
 }

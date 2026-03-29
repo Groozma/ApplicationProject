@@ -1,9 +1,15 @@
 .service {
     flex-direction: column;
     margin: 1rem;
-    width: 50%;
+    width: 90%;
     h3 {
         text-decoration: underline;
         font-size: 1.5rem;
     }
+}
+
+@media (min-width: 1200px) {
+.service {
+    width: 50%;
+}
 }

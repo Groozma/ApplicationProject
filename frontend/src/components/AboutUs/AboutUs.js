@@ -1,7 +1,7 @@
 import "./AboutUs.scss";
 function AboutUs() {
   return (
-    <div>
+    <div className="about-us">
       <h2>OUR MISSION</h2>
       <ul>
         <li>To build strong character by teaching skills that empower</li>

@@ -4,8 +4,10 @@ import emailjs from "@emailjs/browser";
 function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [emailConfirm, setEmailConfirm] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [emailUnmatched, setEmailUnmatched] = useState(false);
   const [isInvalid, setIsInvalid] = useState(false);
   const [emailSent, setEmailSent] = useState(false);
 
@@ -19,6 +21,10 @@ function Form() {
     setEmail(e.target.value);
   };
 
+  const handleEmailConfirmChange = (e) => {
+    setEmailConfirm(e.target.value);
+  };
+
   const handleSubjectChange = (e) => {
     setSubject(e.target.value);
   };
@@ -30,11 +36,16 @@ function Form() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (name === "" || email === "" || subject === "" || message === "") {
-      setIsInvalid(true);
-    } else {
-      setIsInvalid(false);
-      emailjs
+    if (email != emailConfirm) {
+      setEmailUnmatched(true);
+    }
+    else {
+      setEmailUnmatched(false);
+      if (name === "" || email === "" || subject === "" || message === "") {
+        setIsInvalid(true);
+      } else {
+        setIsInvalid(false);
+        emailjs
         .sendForm("service_b6gkh8d", "template_1ptipct", form.current, {
           publicKey: "GH2Hwd5DAh6TeNLf8",
         })
@@ -43,6 +54,7 @@ function Form() {
             console.log("SUCCESS!");
             setName("");
             setEmail("");
+            setEmailConfirm("");
             setSubject("");
             setMessage("");
             setEmailSent(true);
@@ -51,6 +63,7 @@ function Form() {
             console.log("FAILED...", error.text);
           }
         );
+      }
     }
   };
 
@@ -85,6 +98,19 @@ function Form() {
 
         <div>
           <label>
+            Confirm Email:
+            <input
+              type="email"
+              maxLength={75}
+              value={emailConfirm}
+              onChange={handleEmailConfirmChange}
+              name="emailConfirm"
+            />
+          </label>
+        </div>
+
+        <div>
+          <label>
             Subject:
             <input
               type="text"
@@ -108,6 +134,8 @@ function Form() {
           </label>
         </div>
 
+
+        {emailUnmatched && <div>Please confirm both e-mails match</div>}
         {isInvalid && <div>Please fill in all boxes</div>}
 
         <button>Submit</button>

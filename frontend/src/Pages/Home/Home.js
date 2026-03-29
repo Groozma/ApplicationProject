@@ -10,12 +10,12 @@ import Facebook from "../../components/Facebook/Facebook";
 function Home() {
   return (
     <div className="home">
-      <div>Welcome to Onward Sun</div>
-
-      <AboutUs />
-      <Facebook />
-
-      <div>
+      {/* <div>Welcome to Onward Sun</div> */}
+      <aside>
+        <AboutUs />
+        <Facebook />
+      </aside>
+      <div className="home-sections">
         <h2>Onward Makes A Difference...</h2>
 
         <div>
