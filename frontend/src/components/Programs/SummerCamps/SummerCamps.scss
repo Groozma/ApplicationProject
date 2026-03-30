@@ -1,4 +1,11 @@
 .summer {
   flex-direction: column;
-  width: 45%;
+  width: 90%;
 }
+
+@media (min-width: 1200px) {
+  .summer {
+    width: 40%;
+  }
+}
+

@@ -10,7 +10,7 @@
         font-size: 1.5rem;
     }
     .flex-row {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         .news-photo {
             width: 200px;
@@ -24,5 +24,13 @@
         width: 50%;
         align-self: center;
         margin: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .news {
+        .flex-row {
+            flex-direction: row;
+        }
     }
 }

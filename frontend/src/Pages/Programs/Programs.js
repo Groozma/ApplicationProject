@@ -1,7 +1,7 @@
 import SchoolYearProgram from "../../components/Programs/SchoolYearProgram/SchoolYearProgram";
 import SummerCamps from "../../components/Programs/SummerCamps/SummerCamps";
 import TeenGroup from "../../components/Programs/TeenGroup/TeenGroup";
-import ParentInfo from "../../components/ParentInfo";
+import ParentInfo from "../../components/ParentInfo/ParentInfo";
 import Refund from "../../components/Refund/Refund";
 import "./Programs.scss";
 
@@ -11,11 +11,11 @@ function Programs() {
     <>
       <div className="programs">
         <SchoolYearProgram />
-        {/* <div className="line"></div> */}
+        <div className="line"></div>
         <TeenGroup />
-        {/* <div className="line"></div> */}
+        <div className="line"></div>
         <SummerCamps />
-        {/* <div className="line"></div> */}
+        <div className="line"></div>
         <ParentInfo />
       </div>
       <div>

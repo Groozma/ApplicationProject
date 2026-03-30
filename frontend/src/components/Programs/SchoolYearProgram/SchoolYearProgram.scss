@@ -3,10 +3,18 @@
 
 .syprogram {
   flex-direction: column;
-  width: 45%;
-  a {
+  width: 90%;
+  .brochure {
+    display: block;
     text-decoration: none;
     color: $black-font;
     @include button-style($secondary-color);
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .syprogram {
+    width: 40%;
   }
 }

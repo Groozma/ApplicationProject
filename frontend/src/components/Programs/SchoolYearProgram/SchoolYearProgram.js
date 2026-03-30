@@ -81,7 +81,7 @@ function SchoolYearProgram() {
       </ul>
 
       <Cost />
-      <a href="./Onward-Brochure-2025-2026-Fullpdf-min.pdf">
+      <a href="./Onward-Brochure-2025-2026-Fullpdf-min.pdf" className="brochure">
         Click here to download our School Year Brochure
       </a>
     </div>

@@ -5,6 +5,7 @@ function Facebook() {
   // Displays Facebook link with proper SEO-friendly alt text
   return (
     <div className="facebook">
+      <h3>Follow us on Facebook</h3>
       <a
         href="https://www.facebook.com/onwardsocialskills"
         target="_blank"
@@ -12,8 +13,6 @@ function Facebook() {
       >
         <img src={facebook} alt="Facebook logo" width={45} height={45} />
       </a>
-
-      <div>Follow us on Facebook:</div>
     </div>
   );
 }
