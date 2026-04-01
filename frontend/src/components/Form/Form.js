@@ -38,31 +38,30 @@ function Form() {
 
     if (email != emailConfirm) {
       setEmailUnmatched(true);
-    }
-    else {
+    } else {
       setEmailUnmatched(false);
       if (name === "" || email === "" || subject === "" || message === "") {
         setIsInvalid(true);
       } else {
         setIsInvalid(false);
         emailjs
-        .sendForm("service_b6gkh8d", "template_1ptipct", form.current, {
-          publicKey: "GH2Hwd5DAh6TeNLf8",
-        })
-        .then(
-          () => {
-            console.log("SUCCESS!");
-            setName("");
-            setEmail("");
-            setEmailConfirm("");
-            setSubject("");
-            setMessage("");
-            setEmailSent(true);
-          },
-          (error) => {
-            console.log("FAILED...", error.text);
-          }
-        );
+          .sendForm("service_b6gkh8d", "template_1ptipct", form.current, {
+            publicKey: "GH2Hwd5DAh6TeNLf8",
+          })
+          .then(
+            () => {
+              console.log("SUCCESS!");
+              setName("");
+              setEmail("");
+              setEmailConfirm("");
+              setSubject("");
+              setMessage("");
+              setEmailSent(true);
+            },
+            (error) => {
+              console.log("FAILED...", error.text);
+            },
+          );
       }
     }
   };
@@ -72,7 +71,8 @@ function Form() {
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label>
-            Name:
+            <b>Name:</b>
+            <br />
             <input
               type="text"
               maxLength={50}
@@ -85,7 +85,8 @@ function Form() {
 
         <div>
           <label>
-            Email:
+            <b>Email:</b>
+            <br />
             <input
               type="email"
               maxLength={75}
@@ -98,7 +99,8 @@ function Form() {
 
         <div>
           <label>
-            Confirm Email:
+            <b>Confirm Email:</b>
+            <br />
             <input
               type="email"
               maxLength={75}
@@ -111,7 +113,8 @@ function Form() {
 
         <div>
           <label>
-            Subject:
+            <b>Subject:</b>
+            <br />
             <input
               type="text"
               maxLength={100}
@@ -124,7 +127,8 @@ function Form() {
 
         <div>
           <label>
-            Message:
+            <b>Message:</b>
+            <br />
             <textarea
               maxLength={1000}
               value={message}
@@ -133,7 +137,6 @@ function Form() {
             />
           </label>
         </div>
-
 
         {emailUnmatched && <div>Please confirm both e-mails match</div>}
         {isInvalid && <div>Please fill in all boxes</div>}

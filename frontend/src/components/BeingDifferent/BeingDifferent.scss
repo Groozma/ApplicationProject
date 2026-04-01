@@ -1,22 +1,23 @@
 @import "../../styles/variables.scss";
 
 .different {
-    width: 300px;
-    margin: 1rem;
-    h3 {
-        text-decoration: underline;
-        font-size: 1.5rem;
-    }
-    .poem {
-        flex-direction: column;
-        background-color: $secondary-color-light;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
+  width: auto;
+  margin: 0 auto;
+  h3 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+  .poem {
+    flex-direction: column;
+    background-color: $secondary-color-light;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 400px;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .different {
-    width: 100%;
-}
+    width: auto;
+  }
 }

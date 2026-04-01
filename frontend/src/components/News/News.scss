@@ -1,36 +1,39 @@
 @import "../../styles/mixins.scss";
 @import "../../styles/variables.scss";
 
-
 .news {
+  flex-direction: column;
+  margin: 1rem;
+  h3 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+  .flex-row {
     flex-direction: column;
+    .news-photo {
+      width: 200px;
+      margin-right: 1rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $black-font;
+    @include button-style($secondary-color);
+    width: auto;
+    align-self: center;
     margin: 1rem;
-    h3 {
-        text-decoration: underline;
-        font-size: 1.5rem;
-    }
-    .flex-row {
-        flex-direction: column;
-        align-items: center;
-        .news-photo {
-            width: 200px;
-            margin-right: 1rem;
-        }
-    }
-    a {
-        text-decoration: none;
-        color: $black-font;
-        @include button-style($secondary-color);
-        width: 50%;
-        align-self: center;
-        margin: 1rem;
-    }
+  }
 }
 
 @media (min-width: 1200px) {
-    .news {
-        .flex-row {
-            flex-direction: row;
-        }
+  .news {
+    .flex-row {
+      flex-direction: row;
+      align-items: center;
     }
+    h3,
+    p {
+      text-align: left;
+    }
+  }
 }

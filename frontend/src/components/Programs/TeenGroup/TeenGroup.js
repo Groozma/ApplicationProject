@@ -5,20 +5,25 @@ function TeenGroup() {
   // content for clarity
   return (
     <div className="teen">
+      <br />
       <h2>Teen Group</h2>
+      <br />
       <h3>Where Teens hang out, have fun and learn skills</h3>
+      <br />
       <p>
         On the second Thursday of each month we meet at Omward from 6:30-8pm.
         During this time the Teens will have a chance to interact with the
         others in the program, while enjoying games and some activities that
-        will strengthen social skills and built self esteem
+        will strengthen social skills and built self esteem.
       </p>
+      <br />
       <p>
         On the last Saturday of the month from 3-7pm, is our Teen's Activity
         Night. This is a fun filled evening that not only gets the teens out on
         a Saturday night but gives them a chance to bond and work towards
-        establishing friendships outside of the group
+        establishing friendships outside of the group.
       </p>
+      <br />
       <ul>
         <li>We meet twice per month</li>
         <li>
@@ -35,6 +40,7 @@ function TeenGroup() {
           on a regular basis
         </li>
       </ul>
+      <br />
     </div>
   );
 }

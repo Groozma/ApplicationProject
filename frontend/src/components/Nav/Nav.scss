@@ -4,13 +4,11 @@ nav {
   background-color: $primary-color;
   display: flex;
   justify-content: center;
-  // gap: 1rem;
-  // justify-content: space-evenly;
 
   .nav-toggle {
     font-size: 2rem;
     background: none;
-    padding: .5rem;
+    padding: 0.5rem;
     border: none;
     color: white;
     cursor: pointer;
@@ -29,7 +27,6 @@ nav {
     display: flex;
   }
 
-
   a {
     text-decoration: none;
     font-size: 2rem;
@@ -37,16 +34,18 @@ nav {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   nav {
     .nav-toggle {
       display: none;
     }
-    
+
     .nav-menu {
       display: flex;
       flex-direction: row;
       margin-top: 0;
+      gap: 2rem;
+
       li {
         margin-right: 1rem;
       }

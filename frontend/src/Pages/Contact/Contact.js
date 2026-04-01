@@ -11,10 +11,15 @@ function Contact() {
     <div className="contact">
       <div className="card">
         <h2>Contact Us</h2>
+        <br />
         <p>
           Parents and guardians can contact us via email:
           <a href="mailto:onward@live.ca"> onward@live.ca</a>
         </p>
+        <br />
+        <hr />
+        <br />
+        <Feedback />
       </div>
 
       <div className="card">
@@ -26,16 +31,12 @@ function Contact() {
         <Address />
       </div>
 
-      <div className="card">
-        <Feedback />
-      </div>
-
       <div className="card signup">
-        <SignUp />
-      </div>
-
-      <div className="card">
         <Certification />
+        <br />
+        <hr />
+        <br />
+        <SignUp />
       </div>
     </div>
   );
