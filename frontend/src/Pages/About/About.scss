@@ -1,21 +1,23 @@
 .about {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  div {
     div {
-        div {
-            display: flex;
-            flex-direction: column;
-        }
+      display: flex;
+      flex-direction: column;
     }
+  }
 }
 
 @media (min-width: 1200px) {
-    .about {
+  .about {
+    flex-direction: row;
+    div {
+      .service-news {
         flex-direction: row;
-        div {
-            .service-news{
-                flex-direction: row;
-            }
-        }
+      }
     }
+  }
 }

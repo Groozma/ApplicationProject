@@ -4,13 +4,12 @@
   background-color: $primary-color;
   display: flex;
   flex-direction: column;
-  // justify-content: space-around;
   padding: 0.5rem;
   color: $white-font;
   font-size: 2rem;
-  // align-items: center;
 
   .header-image {
     width: 90%;
+    margin: 0 auto;
   }
 }
