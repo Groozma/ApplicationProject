@@ -6,6 +6,7 @@ function SchoolYearProgram() {
   return (
     <div className="syprogram">
       <h2>School Year Program</h2>
+      <br />
 
       <h3>Social Skills Enrichment for Children</h3>
 
@@ -13,6 +14,7 @@ function SchoolYearProgram() {
         Developed to meet the needs of children aged 5-14 years. Presented in a
         fun, hands-on, self-empowering format, designed...just for kids.
       </p>
+      <br />
 
       <h3>Social Skills Tutoring</h3>
       <ul>
@@ -25,6 +27,7 @@ function SchoolYearProgram() {
         <li>Friendship skills</li>
         <li>Communicating needs and feelings</li>
       </ul>
+      <br />
 
       <h3>Group Format</h3>
       <ul>
@@ -47,6 +50,7 @@ function SchoolYearProgram() {
           the Onward program setting
         </li>
       </ul>
+      <br />
 
       <h3>Goals</h3>
       <ul>
@@ -79,11 +83,16 @@ function SchoolYearProgram() {
           group
         </li>
       </ul>
+      <br />
 
       <Cost />
-      <a href="./Onward-Brochure-2025-2026-Fullpdf-min.pdf" className="brochure">
+      <a
+        href="./Onward-Brochure-2025-2026-Fullpdf-min.pdf"
+        className="brochure"
+      >
         Click here to download our School Year Brochure
       </a>
+      <br />
     </div>
   );
 }

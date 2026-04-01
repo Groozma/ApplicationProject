@@ -6,6 +6,7 @@ function Certification() {
     <>
       <div className="certification">
         <h2>Certification</h2>
+        <br />
         Certified Member of the <br />
         <a href="https://oacyc.org/" target="_blank" rel="noopener noreferrer">
           Ontario Association of Child and Youth Care

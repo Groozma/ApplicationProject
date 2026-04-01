@@ -30,15 +30,19 @@ function SignUp() {
   return (
     <div>
       <h2>Sign Up</h2>
-
+      <br />
       <form onSubmit={handleFormSubmit}>
-        <input
-          type="email"
-          placeholder="Enter your email address..."
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-          required
-        />
+        <label>
+          <b>Email</b>
+          <br />
+          <input
+            type="email"
+            placeholder="Enter your email address..."
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+            required
+          />
+        </label>
 
         <div className="options">
           <label>

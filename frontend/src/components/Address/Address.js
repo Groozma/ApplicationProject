@@ -10,6 +10,7 @@ function Address() {
   return (
     <div className="address">
       <h2>Onward Office</h2>
+      <br />
       <p>
         Onward Social Skills
         <br />
@@ -19,6 +20,7 @@ function Address() {
         <br />
         Telephone: (519) 641-4781
       </p>
+      <br />
 
       <iframe
         title="Onward Office"

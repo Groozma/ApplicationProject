@@ -13,10 +13,12 @@ function Feedback() {
   return (
     <div>
       <h2>Feedback</h2>
+      <br />
       <form onSubmit={handleSubmit}>
         <div>
           <label>
-            Name:
+            <b>Name:</b>
+            <br />
             <input
               type="text"
               value={name}
@@ -27,7 +29,8 @@ function Feedback() {
 
         <div>
           <label>
-            Message:
+            <b>Message:</b>
+            <br />
             <textarea
               value={message}
               onChange={(e) => setMessage(e.target.value)}

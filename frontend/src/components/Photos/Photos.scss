@@ -3,9 +3,10 @@
 .photos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   .photo {
     margin: 1rem;
-    width: 300px;
+    width: auto;
     height: auto;
     border: 2px $secondary-color solid;
     border-radius: 5%;
@@ -16,9 +17,9 @@
 }
 
 @media (min-width: 800px) {
+  .photos {
     .photos {
-      .photos {
-        width: auto;
-      }
+      width: auto;
     }
+  }
 }
