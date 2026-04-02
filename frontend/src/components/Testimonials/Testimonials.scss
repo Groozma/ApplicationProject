@@ -20,15 +20,16 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .testimonials {
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
+    flex-wrap: wrap;
     padding: 1rem;
     margin: 1rem;
     .data {
-      width: 50%;
+      width: 45%;
     }
   }
 }

@@ -4,10 +4,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
   .photo {
     margin: 1rem;
-    width: auto;
-    height: auto;
+    width: 325px;
+    height: min-content;
     border: 2px $secondary-color solid;
     border-radius: 5%;
     box-shadow: 10px 10px 5px 0px $primary-color;
@@ -18,7 +20,7 @@
 
 @media (min-width: 800px) {
   .photos {
-    .photos {
+    .photo {
       width: auto;
     }
   }

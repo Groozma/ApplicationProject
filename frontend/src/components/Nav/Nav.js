@@ -14,9 +14,9 @@ function Nav() {
             <li><Link to="/ApplicationProject/About">About</Link></li>
             <li><Link to="/ApplicationProject/Programs">Programs</Link></li>
             <li><Link to="/ApplicationProject/Testimonials">Testimonials</Link></li>
-            <li><Link to="/ApplicationProject/Contact">Contact</Link></li>
             <li><Link to={"/ApplicationProject/Gallery"}>Gallery</Link></li>
             <li><Link to={"/ApplicationProject/NeatStuff"}>Neat Stuff</Link></li>
+            <li><Link to="/ApplicationProject/Contact">Contact</Link></li>
           </ul>
           <button 
             className="nav-toggle" 

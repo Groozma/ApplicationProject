@@ -11,7 +11,7 @@ function Facebook() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={facebook} alt="Facebook logo" width={45} height={45} />
+        <img src={facebook} alt="Facebook logo" width={90} height={90} />
       </a>
     </div>
   );

@@ -3,16 +3,16 @@
 .different {
   width: auto;
   margin: 0 auto;
-  h3 {
-    text-decoration: underline;
-    font-size: 1.5rem;
-  }
   .poem {
     flex-direction: column;
     background-color: $secondary-color-light;
     padding: 1rem;
     border-radius: 1rem;
-    width: 400px;
+    width: 300px;
+    h3 {
+      text-decoration: underline;
+      font-size: 1.5rem;
+    }
   }
 }
 
