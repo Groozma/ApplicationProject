@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/ApplicationProject/static/css/main.a059d487.css",
-    "main.js": "/ApplicationProject/static/js/main.c4875c43.js",
+    "main.css": "/ApplicationProject/static/css/main.db2fb03d.css",
+    "main.js": "/ApplicationProject/static/js/main.13c1f5d3.js",
     "static/js/453.e4ff0d69.chunk.js": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js",
     "static/media/summer.png": "/ApplicationProject/static/media/summer.ecc272649c532c0d92a7.png",
+    "static/media/Distinguished-Alumni-Award-2010-PDF.pdf": "/ApplicationProject/static/media/Distinguished-Alumni-Award-2010-PDF.5e23ab2c2cc4ebd36113.pdf",
+    "static/media/header-img.png": "/ApplicationProject/static/media/header-img.b6f1f5ef36982b3f912f.png",
     "static/media/logo.png": "/ApplicationProject/static/media/logo.1de852c5f69c38e0458a.png",
     "static/media/school.jpg": "/ApplicationProject/static/media/school.6bb2e5a50961589f2a3c.jpg",
+    "static/media/You-Are-Unique-Poem-PDF.pdf": "/ApplicationProject/static/media/You-Are-Unique-Poem-PDF.d0ae33b4f6f1280cf47c.pdf",
+    "static/media/Inthenews.pdf": "/ApplicationProject/static/media/Inthenews.0b59b3da3c34228602c8.pdf",
     "static/media/testimonial.png": "/ApplicationProject/static/media/testimonial.921d4d18c137cc4282fa.png",
     "static/media/gallery3.jpg": "/ApplicationProject/static/media/gallery3.e9e2b5272d8995df849c.jpg",
     "static/media/gallery2.jpg": "/ApplicationProject/static/media/gallery2.a07373d2c38acb7e1af2.jpg",
@@ -17,19 +21,22 @@
     "static/media/gallery5.jpg": "/ApplicationProject/static/media/gallery5.177c109e9c9ba985b040.jpg",
     "static/media/gallery6.jpg": "/ApplicationProject/static/media/gallery6.c3525a1d1aff808009c4.jpg",
     "static/media/gallery8.jpg": "/ApplicationProject/static/media/gallery8.95e5ba0bdd58f51b30b7.jpg",
+    "static/media/Goop-Instructions-PDF.pdf": "/ApplicationProject/static/media/Goop-Instructions-PDF.f1b78a56f232c8af644f.pdf",
     "static/media/gallery13.jpg": "/ApplicationProject/static/media/gallery13.3382636fc5a48dcee552.jpg",
     "static/media/gallery11.jpg": "/ApplicationProject/static/media/gallery11.e855e665ac5815a1945e.jpg",
     "static/media/gallery12.jpg": "/ApplicationProject/static/media/gallery12.35c4eabe7e6c2995346b.jpg",
     "static/media/gallery10.jpg": "/ApplicationProject/static/media/gallery10.7e2aefd7a3ca5d633cad.jpg",
+    "static/media/Danielle-and-Amie_1.jpg": "/ApplicationProject/static/media/Danielle-and-Amie_1.6a2c00c3ce04daea7bba.jpg",
     "static/media/Facebook_Logo_Primary.png": "/ApplicationProject/static/media/Facebook_Logo_Primary.790642551cd99bb66a7e.png",
+    "static/media/Homemade-Playdough-PDF.pdf": "/ApplicationProject/static/media/Homemade-Playdough-PDF.e26d0a9783d2db741098.pdf",
     "static/media/neat.png": "/ApplicationProject/static/media/neat.216a33cc1101a8f72f81.png",
     "index.html": "/ApplicationProject/index.html",
-    "main.a059d487.css.map": "/ApplicationProject/static/css/main.a059d487.css.map",
-    "main.c4875c43.js.map": "/ApplicationProject/static/js/main.c4875c43.js.map",
+    "main.db2fb03d.css.map": "/ApplicationProject/static/css/main.db2fb03d.css.map",
+    "main.13c1f5d3.js.map": "/ApplicationProject/static/js/main.13c1f5d3.js.map",
     "453.e4ff0d69.chunk.js.map": "/ApplicationProject/static/js/453.e4ff0d69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a059d487.css",
-    "static/js/main.c4875c43.js"
+    "static/css/main.db2fb03d.css",
+    "static/js/main.13c1f5d3.js"
   ]
 }
