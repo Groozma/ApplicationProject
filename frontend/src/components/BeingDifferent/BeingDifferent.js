@@ -3,8 +3,8 @@ import './BeingDifferent.scss';
 function BeingDifferent() {
     return(
         <div className="different">
-            <h3>Being Different</h3>
             <div className="poem">
+                <h3>Being Different</h3>
                 <h5>Written by former Onward Student</h5>
                 <div>It's hard to be me…I'm different from the rest</div>
                 <div>I used to have these problems…That are now taken from my chest.</div>

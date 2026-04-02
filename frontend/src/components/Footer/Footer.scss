@@ -15,5 +15,9 @@
     justify-content: space-evenly;
     padding: 4rem;
     gap: 2rem;
+    .developers {
+      display: flex;
+      gap: 1rem;
+    }
   }
 }
